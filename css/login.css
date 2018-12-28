@@ -1,0 +1,54 @@
+.reg-form {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  height: 400px;
+  width: 300px;
+  padding: 20px 30px;
+  color: rgba(158, 158, 158, 1);
+  box-shadow: 5px 4px 7px transparent;
+}
+.reg-form p img {
+  height: 50px;
+  margin: 0px 0px;
+}
+
+#icon {
+  display: inline-block;
+  width: 30px;
+  color: black;
+  font-size: 18px;
+}
+
+.reg-form input[type="text"],
+.reg-form input[type="password"] {
+  border: none !important;
+  border-bottom: 2px solid rgba(158, 158, 158, 1) !important;
+  outline: none !important;
+  background: white !important;
+  width: 100%;
+  margin: 4px 0px;
+  padding: 5px 0px 5px 10px;
+  color: grey;
+}
+
+.reg-form input[type="text"]:focus,
+.reg-form input[type="password"]:focus {
+  border-bottom: 2px solid rgb(244, 67, 54) !important;
+}
+
+#remember {
+  margin-left: 5px;
+}
+#remember label {
+  font-weight: normal;
+}
+.reg-form input[type="submit"] {
+  margin: 10px 30px 0px 0px;
+}
+
+#reg_extra {
+  margin-top: 15px !important;
+}
